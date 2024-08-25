@@ -1,0 +1,225 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-08-25T13:17:39.874Z",
+        "before": [
+          {
+            "result": {
+              "duration": 101967975300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "filter Task",
+        "description": "",
+        "id": "verify-that-todomvc-page-loads-successfully;filter-task",
+        "after": [
+          {
+            "result": {
+              "duration": 8817603700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 540725500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user navigates TodoMVC Page",
+            "match": {
+              "location": "steps.RegisterMelaka.testingSteps.user_navigates_TodoMVC_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66463000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user on todoMVC page user click field what needs to be done",
+            "match": {
+              "location": "steps.RegisterMelaka.testingSteps.user_on_todoMVC_page_user_click_field_what_needs_to_be_done()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 186812600,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user input task \"Go to H Club SCBD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Go to H Club SCBD\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.RegisterMelaka.testingSteps.user_input_task(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142306500,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user input task \"Buy a bottle of Singleton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Buy a bottle of Singleton\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.RegisterMelaka.testingSteps.user_input_task(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133952100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user input task \"Dance the night out!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dance the night out!\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.RegisterMelaka.testingSteps.user_input_task(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56691600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "mark as completed task one",
+            "match": {
+              "location": "steps.RegisterMelaka.testingSteps.mark_as_completed_task_one()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87365300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "delete task two",
+            "match": {
+              "location": "steps.RegisterMelaka.testingSteps.delete_task_two()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56321600,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "select filter active",
+            "match": {
+              "location": "steps.RegisterMelaka.testingSteps.select_filter_active()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5217714800,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "show task \"Dance the night out!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dance the night out!\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.RegisterMelaka.testingSteps.show_task(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44584600,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "select filter completed",
+            "match": {
+              "location": "steps.RegisterMelaka.testingSteps.select_filter_completed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9807073400,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "show task \"Go to H Club SCBD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Go to H Club SCBD\"",
+                  "offset": 10
+                }
+              ],
+              "location": "steps.RegisterMelaka.testingSteps.show_task(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          },
+          {
+            "name": "@filterTask"
+          }
+        ]
+      }
+    ],
+    "name": "Verify that TodoMVC page loads successfully",
+    "description": "",
+    "id": "verify-that-todomvc-page-loads-successfully",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/testing.feature",
+    "tags": [
+      {
+        "name": "@main",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
